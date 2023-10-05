@@ -1,0 +1,20 @@
+body{
+    background-color: darkcyan;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: chartreuse;
+    text-indent: 30px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aqua;
+    text-transform: initial;
+}
+p{
+    text-align: justify;
+    color: black;
+    letter-spacing: normal;
+}
