@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latihan Bersama Pak Aman SI4505</title>
+  </head>
+
+  <body>
+    <h1>JavaScript Can Change Image</h1>
+    <img id="Latihan Javascript" onclick="changeImage()" src="gyj.jpeg" width="100" height="180">
+    <p>Click the Image to change image.</p>
+    <script>
+      function changeImage() {
+        var image = document.getElementById('Latihan Javascript');
+        if (image.src.match('Latihan Javascript')) {
+          image.src = "gyj.jpeg";
+        } else {
+          image.src = "gyj2.jpeg";
+        }
+      }
+    </script>
+  </body>
+</html>
